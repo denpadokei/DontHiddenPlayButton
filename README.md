@@ -1,0 +1,2 @@
+# DontHiddenPlayButton
+プレイボタンを消すな
