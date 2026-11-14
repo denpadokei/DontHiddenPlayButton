@@ -1,6 +1,5 @@
 # DontHiddenPlayButton
 
-[![Build and Release](https://github.com/denpadokei/DontHiddenPlayButton/actions/workflows/build-and-release.yml/badge.svg)](https://github.com/denpadokei/DontHiddenPlayButton/actions/workflows/build-and-release.yml)
 
 ScoreSaber のリーダーボード画面でプレイボタンが消える (押せなくなる) 問題を抑止する MOD です。プレイボタンの状態設定を Harmony で置き換えます。
 
@@ -36,7 +35,8 @@ dotnet build .\DontHiddenPlayButton\DontHiddenPlayButton.csproj -c Release
 
 `BeatSaberDir` (または `GameDirectory`) に Beat Saber のインストール先を設定すると、ゲームの参照アセンブリを解決できます。
 
-GitHub Actions の `build-and-release.yml` が push ごとにビルドし、`X.X.X` 形式のタグを push するとリリースを作成します。
+
+> GitHub Actions によるビルドは未設定です。manifest の対象バージョン (1.16.1) に対応する ScoreSaber が BeatMods に存在せず、CI で参照アセンブリを解決できないため。
 
 ## ライセンス
 
